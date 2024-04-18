@@ -24,7 +24,7 @@ int main() {
                if(!number)
              {
                     cout<<"You entered wrong number. please try again: ";
-                    cin.clear(); 
+                    cin.clear(); //resetting any error flags in the input stream
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     
              }       
@@ -36,27 +36,17 @@ int main() {
                 break;
                 
                }
-
              
-                     
 
               else 
              {
              
              cout<<"You entered "<<number<<". Please enter the value between 5 and 10: ";                
 
-             }     
-
-             
-
-
-        
+             }           
 
           }   
          
-
-
-
 
     return 0;
 }
