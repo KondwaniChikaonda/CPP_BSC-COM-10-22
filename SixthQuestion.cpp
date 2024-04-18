@@ -13,7 +13,9 @@ int main () {
          
     ifstream myFile("simpleFile.txt");
 
-    while(std::getline(myFile,text)) { 
+    while(std::getline(myFile,text)) //reading the statement from the file
+
+    { 
 
        string fileData = text;
          cout<<fileData<<"\n";
@@ -37,7 +39,7 @@ int main () {
 
 string Reverse(string returnText) {
 
-  reverse(returnText.begin(), returnText.end());
+  reverse(returnText.begin(), returnText.end()); //reversing the string 
 
    cout<<"The reversed string is: ";
    cout<<returnText;
