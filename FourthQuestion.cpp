@@ -21,7 +21,16 @@ int main() {
                    int number;
                    cin>>number;
                      
-             if((number>=5)&& (number<=10)) 
+               if(!number)
+             {
+                    cout<<"You entered wrong number. please try again\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    
+             }       
+
+
+             else if(number>=5&& number<=10) 
              {
                 cout<<"Your input value("<<number<<") has been accepted";
                 break;
@@ -31,18 +40,14 @@ int main() {
              
                      
 
-              else if(number<5 || number>10)
+              else 
              {
              
              cout<<"You entered "<<number<<". Please enter the value between 5 and 10: ";                
 
              }     
 
-              else
-             {
-                    cout<<"You entered wrong number. please try again\n";
-                    
-             }
+             
 
 
         

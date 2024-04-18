@@ -6,20 +6,29 @@ using namespace std;
 
 int main() {
 
-         cout<<"Please select the area of the shape to calculate\n";
+
+
+
+       
+          
+             
+             
+
+             while(true) 
+             
+              {  
+
+
+                 cout<<"Please select the area of the shape to calculate\n";
          cout<<"1. Square\n";
           cout<<"2. Rectangle\n";
            cout<<"3. Triangle\n";
             cout<<"4. Quit Program\n";
             cout<<"Enter Selection: ";
-          
-              int input;
-              cin>>input;
-             
 
-             while(input) 
-             
-              {
+
+                   int input;
+              cin>>input;
 
                  if (input== 1 || input==2 || input ==3) 
           
@@ -78,8 +87,19 @@ int main() {
                      break;
                   }
 
-              }
 
+                  else
+                  {
+                    cout<<"Wrong input. ";
+                    
+                  }
+
+
+               
+              }
+         
+
+    
 
     return 0;
 }

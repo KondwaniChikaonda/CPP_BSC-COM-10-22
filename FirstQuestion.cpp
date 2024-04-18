@@ -8,7 +8,7 @@ using namespace std;
 int main() {
   
 
-      int daysUntilExpiration = rand()%11; 
+      int daysUntilExpiration = rand()%12; 
 
          
 
