@@ -6,7 +6,7 @@
 using namespace std;
 
 
-string Reverse(string returnText); //declaring a function Reverse
+string Reverse(string reversedText); //declaring a function Reverse
 
 int main () {
    string text;
@@ -23,7 +23,7 @@ int main () {
        int numberOfChar= fileData.size();
        cout<<"The string has "<<numberOfChar<<" characters"<<endl;
        
-       string reverseText = Reverse(fileData);
+       string reverseText = Reverse(fileData); //calling the function Reverse
   
     
     }
@@ -37,11 +37,11 @@ int main () {
 
 
 
-string Reverse(string returnText) {
+string Reverse(string reversedText) {
 
-  reverse(returnText.begin(), returnText.end()); //reversing the string 
+  reverse(reversedText.begin(), reversedText.end()); //reversing the string 
 
    cout<<"The reversed string is: ";
-   cout<<returnText;
+   cout<<reversedText;
         
       }
