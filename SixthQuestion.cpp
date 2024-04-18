@@ -1,44 +1,30 @@
 #include<iostream>//print or get something from the console
 #include<cstring>
 #include<fstream>//read and write from the file
-#include<cmath>
 #include<string>
-#include<ostream>
+#include<algorithm>
 using namespace std;
 
 
-string Reverse(string returnText);
-
-string Reverse(string returnText) {
-        
-}
-
+string Reverse(string returnText); //declaring a function Reverse
 
 int main () {
-
    string text;
          
     ifstream myFile("simpleFile.txt");
 
-    while(std::getline(myFile,text)) {
-            
-            
-       cout<<text<<"\n";
+    while(std::getline(myFile,text)) { 
 
        string fileData = text;
-       int x = fileData.size();
-       cout<<"The string has "<<x<<" characters";
+         cout<<fileData<<"\n";
+           
+       int numberOfChar= fileData.size();
+       cout<<"The string has "<<numberOfChar<<" characters"<<endl;
        
        string reverseText = Reverse(fileData);
   
-       
-    
-
     
     }
-
-
-
 
    //close the file
    myFile.close();
@@ -47,3 +33,13 @@ int main () {
                 return 0;
 }
 
+
+
+string Reverse(string returnText) {
+
+  reverse(returnText.begin(), returnText.end());
+
+   cout<<"The reversed string is: ";
+   cout<<returnText;
+        
+      }

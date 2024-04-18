@@ -1,2 +1,1 @@
-puter Programming Module
-
+This is the Advanced Computer Programming Module

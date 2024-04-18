@@ -11,7 +11,7 @@ int main() {
      {
        string str = code[i];
 
-       char firstLetter = str.at(0);
+       char firstLetter = str.at(0); //checking the first letter of the string
        
            
            if(firstLetter=='B') {

@@ -34,11 +34,13 @@ int main()  {
                           cout<<"Your subscription will expire soon\n";
                       cout<<"Renew now and save 10%";
                       break;
+
+
          case 6: 
-                        cout<<"Your subscription will expire soon. Renew now!"; 
-                         break;       
-         case 7: 
-                         cout<<"Your subscription will expire soon. Renew now!"; 
+                         cout<<"Your subscription will expire soon. Renew now!";   
+                         break;               
+         
+         case 7:         cout<<"Your subscription will expire soon. Renew now!"; 
                          break; 
          case 8: 
                          cout<<"Your subscription will expire soon. Renew now!"; 
@@ -48,7 +50,8 @@ int main()  {
                          break; 
          case 10: 
                          cout<<"Your subscription will expire soon. Renew now!"; 
-                         break;                        
+                         break;   
+                     
          
         default:  cout<<"You have an active subscription";
             break;

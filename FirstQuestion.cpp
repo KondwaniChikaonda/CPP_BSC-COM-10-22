@@ -1,6 +1,4 @@
-#include<iostream>//print or get something from the console
-#include<cstring>
-#include<fstream>//read and write from the file
+#include<iostream>
 #include<cmath>
 using namespace std;
 

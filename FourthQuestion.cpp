@@ -23,8 +23,8 @@ int main() {
                      
                if(!number)
              {
-                    cout<<"You entered wrong number. please try again\n";
-                    cin.clear();
+                    cout<<"You entered wrong number. please try again: ";
+                    cin.clear(); 
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     
              }       
