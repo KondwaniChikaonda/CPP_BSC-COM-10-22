@@ -42,6 +42,10 @@ string Reverse(string reversedText) {
   reverse(reversedText.begin(), reversedText.end()); //reversing the string 
 
    cout<<"The reversed string is: ";
+
+   reversedText[0] = std::toupper(reversedText[0]);
+
+   
    cout<<reversedText;
         
       }
