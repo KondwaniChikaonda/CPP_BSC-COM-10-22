@@ -43,7 +43,7 @@ string Reverse(string reversedText) {
 
    cout<<"The reversed string is: ";
 
-   reversedText[0] = std::toupper(reversedText[0]);
+   reversedText[0] = toupper(reversedText[0]); //capitalising the first letter of string
 
    
    cout<<reversedText;
