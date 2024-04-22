@@ -10,7 +10,7 @@ string numberOfStrings = " ";
 int* dynamicNumber = nullptr;
 string* dynamicString = nullptr;
 
-cout << "How many numbers to type?: ";
+cout << "How many numbers to type?: "<<endl;
 
 cin >> numberOfElements;
 
@@ -45,7 +45,7 @@ cout << "Error: memory could not be allocated";
 
            }
 
-             delete[] dynamicArray;
+             delete[] dynamicNumber;
 
          }
 
