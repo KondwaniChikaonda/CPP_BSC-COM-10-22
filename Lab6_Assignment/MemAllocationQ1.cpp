@@ -1,20 +1,29 @@
 #include <iostream>
-
+#include<cstring>
 using namespace std;
 
 int main() {
 
 int numberOfElements = 0;
+string numberOfStrings = " ";
 
-int* dynamicArray = nullptr;
+int* dynamicNumber = nullptr;
+string* dynamicString = nullptr;
 
-cout << "How many numbers would you like to type? ";
+cout << "How many numbers to type?: ";
 
 cin >> numberOfElements;
 
-dynamicArray = new int[numberOfElements];
 
-if (dynamicArray == nullptr) {
+cout << "How strings to type?: ";
+
+cin >>numberOfStrings;
+
+
+dynamicNumber* = new int[numberOfElements];
+dynamicString* = new string[numberOfStrings];
+
+if (dynamicNumber == nullptr) {
 
 cout << "Error: memory could not be allocated";
 
@@ -26,13 +35,13 @@ cout << "Error: memory could not be allocated";
 
            cout << "Enter number: ";
 
-           cin >> dynamicArray[i];
+           cin >> dynamicNumber[i];
 
             cout << "You have entered: ";
 
             for (int j = 0; j < numberOfElements; j++) {
 
-           cout << dynamicArray[j] << ",";
+           cout << dynamicNumber[j] << ",";
 
            }
 
