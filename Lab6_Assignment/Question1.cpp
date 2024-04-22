@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
     
-    int* dynamicNumber = new int;
     string* dynamicString = new string;
-
+    int* dynamicNumber = new int;
+  
     
     cout << "Enter an integer value: ";
     cin >> *dynamicNumber;
