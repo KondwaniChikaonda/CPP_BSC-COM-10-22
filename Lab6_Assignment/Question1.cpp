@@ -1,63 +1,27 @@
 #include <iostream>
-#include<cstring>
-#include<string>
+#include <string>
 using namespace std;
 
 int main() {
+    
+    int* dynamicNumber = new int;
+    string* dynamicString = new string;
 
-int numberOfElements = 0;
-string numberOfStrings = " ";
+    
+    cout << "Enter an integer value: ";
+    cin >> *dynamicNumber;
 
-int* dynamicNumber = nullptr;
-string* dynamicString;
+    
+    cout << "Enter a string value: ";
+    cin.ignore();
+    getline(cin, *dynamicString);
 
-cout << "How many numbers to type?: "<<endl;
+  
+    cout << "Integer allocated dynamically is: " << *dynamicNumber <<endl;
+    cout << "String allocated dynamically is: " << *dynamicString <<endl;
 
-cin >> numberOfElements;
+    delete dynamicNumber;
+    delete dynamicString;
 
-
-cout << "Type a string?: ";
-
-cin >>numberOfStrings;
-
-
-dynamicNumber = new int[numberOfElements];
-dynamicString = new string;
-
-
-if (dynamicNumber == nullptr) {
-
-cout << "Error: memory cannot be allocated";
-
-}
-
-      else {
-
-         for (int i = 0; i < numberOfElements; i++) {
-
-           cout << "Enter a number: ";
-
-           cin >> dynamicNumber[i];
-
-            cout << "You have entered: ";
-
-            for (int j = 0; j < numberOfElements; j++) {
-
-           cout << dynamicNumber[j] << ",";
-
-           }
-
-             delete[] dynamicNumber;
-
-         }
-
-}
-
-
-getline(cin, *dynamicString);
-
-cout<<"The string allocated dynamically is: "<<*dynamicString;
-
-return 0;
-
+    return 0;
 }
