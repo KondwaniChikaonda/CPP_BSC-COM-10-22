@@ -30,10 +30,10 @@ int main() {
        //allocation of memory dynamically
     double** myArray = new double*[rows];
 
-    for (int i = 0; i < rows; ++i) 
+    for (int k = 0; k < rows; ++k) 
         {
 
-        myArray[i] = new double[columns];
+        myArray[k] = new double[columns];
 
         }
 
