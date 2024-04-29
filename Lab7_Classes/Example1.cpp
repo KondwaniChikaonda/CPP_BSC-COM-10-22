@@ -2,6 +2,11 @@
 #include<cmath>
 using namespace std;
 
+
+void SwapNumbers(int &varA,int &varB);
+
+
+
 int main() {
 
 
@@ -15,4 +20,12 @@ int main() {
    cout<<"varA after swap: "<<varA<<endl;
    cout<<"varB after swap: "<<varB<<endl;
     return 0;
+}
+
+void SwapNumbers(int &varA, int &varB) {
+
+    int temp;   
+    temp = varA;
+     varA = varB;
+    varB = temp;
 }
