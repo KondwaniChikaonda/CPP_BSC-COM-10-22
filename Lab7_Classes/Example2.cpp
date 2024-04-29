@@ -1,10 +1,8 @@
 #include<iostream>
-#include<cmath>
 using namespace std;
 
 
 void SwapNumbers(int *varA,int *varB);
-
 
 
 int main() {
