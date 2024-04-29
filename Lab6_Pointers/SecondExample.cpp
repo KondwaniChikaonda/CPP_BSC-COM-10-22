@@ -10,7 +10,7 @@ int secondValue;
 int * pPointer = nullptr;
 
 
-pPointer = &firstValue; *pPointer = 10;
+pPointer = &firstValue; *pPointer = 11;
 
 
 cout << "firstValue is " << firstValue << '\n'; cout << "secondValue is " << secondValue << '\n';
