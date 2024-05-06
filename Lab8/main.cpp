@@ -32,7 +32,7 @@ Box2.SetHeight(10.0);
 // volume of box 1
 
 volume = Box1.GetVolume(); 
-cout << "Volume of Box1" << volume <<endl;
+cout<< "Volume of Box1" << volume <<endl;
 
 // volume of box 2 
 volume = Box2.GetVolume(); cout<< "Volume of Box2" << volume <<endl;
