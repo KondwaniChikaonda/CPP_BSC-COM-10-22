@@ -2,7 +2,6 @@
 
 #include "Box.h"
 
-
 Box::Box() {
 
 length = 0.0;

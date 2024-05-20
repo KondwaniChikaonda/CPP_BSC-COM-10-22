@@ -1,8 +1,7 @@
 #pragma once
 
-#include <iostream> 
-
-using namespace std;
+#ifndef BOX_H
+#define BOX_H
 
 class Box {
 

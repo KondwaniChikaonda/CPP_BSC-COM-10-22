@@ -8,17 +8,16 @@ private:
 
 public:
     Rectangle();
-    Rectangle(float len, float wid); // Overloaded constructor
     ~Rectangle();
 
-    // Accessor methods
+ 
     void setLength(float len);
     void setWidth(float wid);
     float getLength() const;
     float getWidth() const;
 
-    // Member function to calculate area
+  
     float calculateArea() const;
 };
 
-#endif // RECTANGLE_H
+#endif

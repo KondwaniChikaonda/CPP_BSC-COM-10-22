@@ -1,4 +1,5 @@
 //Main function for the program
+#include "Box.h"
 
 int main() 
 {
